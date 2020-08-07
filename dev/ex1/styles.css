@@ -1,9 +1,25 @@
+:root {
+    --brand-color-1: #800000;
+    --brand-color-2: #ecab18;
+    --brand-color-3: #510909;
+    --brand-color-4: #a27713;
+    --brand-color-5: #290606;
+    --brand-color-6: #443105;
+    --brand-color-7: #857070;
+    --brand-color-8: #ece0c4;
+    --brand-color-9: #514242;
+    --brand-color-10: #a29882;
+    --brand-color-11: #2c2626;
+    --brand-color-12: #403e39;
+}
+
 .content {
     margin: 0 auto;
     width: 95vw;
+    height: 100vh;
     display: grid;
-    grid-template-columns: 4.166666666666666% 29.166666666666668% 8.333333333333332% 12.5% 4.166666666666666% 8.333333333333332% 29.166666666666668% 4.166666666666666%;
-    grid-template-rows: 4.761904761904762% 28.57142857142857% 9.523809523809524% 9.523809523809524% 4.761904761904762% 9.523809523809524% 28.57142857142857% 4.761904761904762%;
+    grid-template-columns: 0.04166666666666666fr 0.29166666666666668fr 0.08333333333333332fr 0.125fr 0.04166666666666666fr 0.08333333333333332fr 0.29166666666666668fr 0.04166666666666666fr;
+    grid-template-rows: 0.04761904761904762fr 0.2857142857142857fr 0.09523809523809524fr 0.09523809523809524fr 0.04761904761904762fr 0.09523809523809524fr 0.2857142857142857fr 0.04761904761904762fr;
     font-family: 'Pacifico', cursive;
 }
 
@@ -32,9 +48,12 @@
 .F {
     grid-column: 5/8;
     grid-row: 2/5;
+}
+
+.F>figure{
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .G {
@@ -55,6 +74,12 @@
 .J {
     grid-column: 3/5;
     grid-row: 3/8;
+}
+
+.J>figure{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .K {
@@ -108,11 +133,40 @@
 }
 
 .darker {
-    background: #DAA520;
+    background: var(--brand-color-2);
+}
+
+.darker-2 {
+    background: var(--brand-color-3);
+}
+
+.darker-3 {
+    background: var(--brand-color-5);
+}
+
+.corner-contrast {
+    background: var(--brand-color-1);
+}
+
+.light {
+    color: #FFF;
+    font-size: 1.3em;
 }
 
 .lighter {
-    color: #000;
+    background: var(--brand-color-8);
+}
+
+.lighter-2 {
+    background: var(--brand-color-7);
+}
+
+.lighter-3 {
+    background: var(--brand-color-11);
+}
+
+.lighter-4 {
+    background: var(--brand-color-8);
 }
 
 .padded {
@@ -143,7 +197,7 @@
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
-    color: #800000;
+    color: var(--brand-color-1);
     font-family: 'Leckerli One', cursive;
     font-size: 11em;
 }
