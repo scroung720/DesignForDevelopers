@@ -1,0 +1,149 @@
+.content {
+    margin: 0 auto;
+    width: 95vw;
+    display: grid;
+    grid-template-columns: 4.166666666666666% 29.166666666666668% 8.333333333333332% 12.5% 4.166666666666666% 8.333333333333332% 29.166666666666668% 4.166666666666666%;
+    grid-template-rows: 4.761904761904762% 28.57142857142857% 9.523809523809524% 9.523809523809524% 4.761904761904762% 9.523809523809524% 28.57142857142857% 4.761904761904762%;
+    font-family: 'Pacifico', cursive;
+}
+
+.A {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.B {
+    grid-column: 3/7;
+    grid-row: 1/2;
+}
+.C {
+    grid-column: 7/8;
+    grid-row: 1/2;
+}
+.D {
+    grid-column: 8/9;
+    grid-row: 1/3;
+}
+
+.E {
+    grid-column: 3/5;
+    grid-row: 2/3;
+}
+
+.F {
+    grid-column: 5/8;
+    grid-row: 2/5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.G {
+    grid-column: 8/9;
+    grid-row: 3/4;
+}
+
+.H {
+    grid-column: 1/2;
+    grid-row: 3/7;
+}
+
+.I {
+    grid-column: 2/3;
+    grid-row: 3/8;
+}
+
+.J {
+    grid-column: 3/5;
+    grid-row: 3/8;
+}
+
+.K {
+    grid-column: 5/6;
+    grid-row: 5/8;
+}
+
+.L {
+    grid-column: 6/8;
+    grid-row: 5/6;
+}
+
+.M {
+    grid-column: 8/9;
+    grid-row: 4/9;
+}
+
+.N {
+    grid-column: 1/2;
+    grid-row: 7/9;
+}
+
+.O {
+    grid-column: 2/3;
+    grid-row: 8/9;
+}
+
+.P {
+    grid-column: 3/4;
+    grid-row: 8/9;
+}
+
+.Q {
+    grid-column: 4/5;
+    grid-row: 8/9;
+}
+
+.R {
+    grid-column: 6/8;
+    grid-row: 8/9;
+}
+
+.S {
+    grid-column: 6/8;
+    grid-row: 6/8;
+}
+
+.T {
+    grid-column: 5/6;
+    grid-row: 8/9;
+}
+
+.darker {
+    background: #DAA520;
+}
+
+.lighter {
+    color: #000;
+}
+
+.padded {
+    padding: 15px;
+    padding-left: 25px;
+    line-height: 30px;
+}
+
+.top {
+    /*   border-top: 1px #C5C3C6 solid; */
+}
+
+.right {
+    /*   border-right: 1px #C5C3C6 solid; */
+}
+
+.bottom {
+    /*   border-bottom: 1px #C5C3C6 solid; */
+}
+
+.left {
+    /*   border-left: 1px #C5C3C6 solid; */
+}
+
+.A .title {
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color: #800000;
+    font-family: 'Leckerli One', cursive;
+    font-size: 11em;
+}
